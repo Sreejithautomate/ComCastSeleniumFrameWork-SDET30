@@ -77,7 +77,7 @@ public class BaseClass {
 	
 	}
 	
-	/*@AfterMethod(groups = {"SmokeTest","regression"})
+	@AfterMethod(groups = {"SmokeTest","regression"})
 	public void logOutApp()
 	{
 		HomePage hp= new HomePage(driver);
@@ -99,7 +99,7 @@ public class BaseClass {
 	{
 		//dbLib.closeDbConnection();
 		Reporter.log("====Data Base closed Successfully == ", true);
-	}*/
+	}
 	}
 	
 	

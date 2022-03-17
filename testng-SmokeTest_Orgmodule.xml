@@ -6,7 +6,6 @@
 <include name="SmokeTest"></include>
 </run>
 </groups>
-
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.crm.OrganizationTests.CreateOrganizationWithMultiplDataTest"/>
